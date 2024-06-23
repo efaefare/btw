@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "practice dtw"
+version = "0.1.0"
+description = ""
+authors = ["y.k <yuki.koga.gs@outlook.jp>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+numpy = "^2.0.0"
+plotly = "^5.22.0"
+ipykernel = "^6.29.4"
+tqdm = "^4.66.4"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
